@@ -4,7 +4,7 @@
 ## Java 17
 ## build
 
--Mac
+- Mac
 > ``$ gradlew build``
 - Windows
 >``gradlew.bat bootRun``
