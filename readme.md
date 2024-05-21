@@ -20,3 +20,7 @@
 ## exec kafka broker (optional)
 > 로컬 테스트를 위해 Broker 를 실행
 * ``kafka-broker/readme.md`` 를 참고
+
+
+## server host 및 topic 설정
+application.yml
