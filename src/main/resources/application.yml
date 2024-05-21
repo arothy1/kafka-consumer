@@ -30,20 +30,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
----
-
-spring:
-  config:
-    activate:
-      on-profile: prod
-
-  datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=your_database
-    username: your_username
-    password: your_password
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-  jpa:
-    hibernate:
-      ddl-auto: none
-    show-sql: true
